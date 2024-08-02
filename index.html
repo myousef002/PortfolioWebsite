@@ -15,27 +15,7 @@
                 <p id="typeWriter"></p>
             </div>
         </div>
+
+        <script src="main.js"></script>
     </body>
-    <script>
-        var i = 0;
-        var txt = 'Code';
-        var speed = 100;
-        
-        function typeWriter() {
-            while(true) {
-                if (i < txt.length) {
-                    document.getElementById("typeWriter").innerHTML += txt.charAt(i);
-                    i++;
-                    setTimeout(typeWriter, speed);
-                } 
-                else if (i >= txt.length){
-                    while(i != 0){
-                        document.getElementById("typeWriter").innerHTML -= txt.charAt(i);
-                        i--;
-                        setTimeout(typeWriter, speed);
-                    }
-                }
-            }
-        }
-    </script>
 </html>
