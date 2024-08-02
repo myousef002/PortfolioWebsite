@@ -19,14 +19,23 @@
     <script>
         var i = 0;
         var txt = 'Code';
-        var speed = 50;
+        var speed = 100;
         
         function typeWriter() {
-          if (i < txt.length) {
-            document.getElementById("typeWriter").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-          }
+            while(true) {
+                if (i < txt.length) {
+                    document.getElementById("typeWriter").innerHTML += txt.charAt(i);
+                    i++;
+                    setTimeout(typeWriter, speed);
+                } 
+                else if (i >= txt.length){
+                    while(i != 0){
+                        document.getElementById("typeWriter").innerHTML -= txt.charAt(i);
+                        i--;
+                        setTimeout(typeWriter, speed);
+                    }
+                }
+            }
         }
     </script>
 </html>
