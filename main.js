@@ -3,9 +3,9 @@ let content = [
     'test1',
     'test2',
     'test3'
-]
+];
 
-let jobTitle = document.querySelector('.typeWriter');
+let jobTitle = document.querySelector('.job');
 
 const slide = () => {
     if (counter >= content.length){
@@ -34,3 +34,4 @@ const slide = () => {
 };
 
 slide();
+setInterval(slide, 4000);

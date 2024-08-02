@@ -3,10 +3,18 @@
     flex-direction: column;
 }
 
-img {
-    width: 50%;
-    height: 50%;
-    border-radius: 50%;
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 500px;
+    display: flex;
+    gap: 10px;
+    font-size: 32px;
+    font-weight: 600;
 }
 
 .start {
