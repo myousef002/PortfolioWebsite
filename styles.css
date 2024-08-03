@@ -20,7 +20,7 @@ body {
     padding: 20px;
 }
 
-.header-icon {
+.header-pic {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -29,13 +29,16 @@ body {
     padding: 20px;
   }
 
-.header-icon .profilePic {
+.header-pic .profilePic {
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
 
-.header-icon .text {
+.header-text {
+    display: flex;
+    align-items: center;
+    color: #fff;
     font-size: 30px;
 }
 
@@ -47,34 +50,54 @@ body {
     padding: 20px;
     justify-content: right;
     align-items: center;
-    font-size: 30px;
+    font-size: 15px;
 }
 
-.header-items .aboutMe {
+.header-items .linkedIn {
+    color: #fff;
     padding: 20px;
 }
 
-.header-items .projects {
+.header-items .github {
+    color: #fff;
     padding: 20px;
 }
 
-.header-items .contact {
-    padding: 20px;
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600; 
+}
+
+.intro .intro-text1{
+    color: #fff;
+    padding: 30px;
+    font-size: 80px;
+}
+
+.intro .intro-text2 {
+    color: #fff;
+    padding: 30px;
+    font-size: 60px;
 }
 
 .wrapper {
     width: 300px;
     display: flex;
+    align-items: center;
     gap: 10px;
     font-size: 32px;
     font-weight: 600; 
 }
 
 .wrapper .text {
+    padding-left: 90px;
     color: #fff;
 }
 
 .wrapper .job {
+    padding-right: 30px;
     display: flex;
     color: #12e727;
 }
