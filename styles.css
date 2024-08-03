@@ -12,6 +12,18 @@ body {
     justify-content: center;
     background: #222;
 }
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header .profilePic {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+
 
 .wrapper {
     width: 500px;
@@ -19,11 +31,6 @@ body {
     gap: 10px;
     font-size: 32px;
     font-weight: 600;
-}
-
-.wrapper .profilePic {
-    width: 50%;
-    height: 50%;
 }
 
 .wrapper .text {
