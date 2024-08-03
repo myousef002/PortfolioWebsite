@@ -21,6 +21,8 @@ body {
 }
 
 .header-icon {
+    display: flex;
+    flex-direction: row;
     text-align: center;
     color: white;
     font-size: 30px;
