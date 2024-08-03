@@ -1,7 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
 body {
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #222;
 }
 
 .wrapper {
@@ -12,8 +21,13 @@ body {
     font-weight: 600;
 }
 
+.wrapper .text {
+    color: #fff;
+}
+
 .wrapper .job {
     display: flex;
+    color: #12e727;
 }
 
 .start {

@@ -19,7 +19,7 @@ const slide = () => {
     jobTitle.classList.add('holder-animation');
 
     const addLetterDiv = (letter, delay) => {
-        let letterDiv = document.createElement('div');
+        let letterDiv = document.createElement("div");
         letterDiv.innerHTML = letter === " " ? "&nbsp" : letter;
         letterDiv.classList.add('start', 'animation');
         letterDiv.style.animationDelay = delay + 's';
