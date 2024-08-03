@@ -21,6 +21,11 @@ body {
     font-weight: 600;
 }
 
+.wrapper .profilePic {
+    width: 50%;
+    height: 50%;
+}
+
 .wrapper .text {
     color: #fff;
 }

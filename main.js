@@ -1,8 +1,8 @@
 let counter = 0;
 let content = [
-    'test1',
-    'test2',
-    'test3'
+    'Developer',
+    'Student',
+    'Teacher'
 ];
 
 let jobTitle = document.querySelector('.job');
