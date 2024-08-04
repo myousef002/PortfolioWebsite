@@ -68,6 +68,7 @@ body {
     flex-direction: column;
     align-items: center;
     font-weight: 600; 
+    margin-top: 50px;
 }
 
 .intro .intro-text1{
@@ -99,7 +100,70 @@ body {
 .wrapper .job {
     padding-right: 30px;
     display: flex;
-    color: #12e727;
+    color: rgb(18, 231, 39);
+}
+
+.projects-text{
+    margin-top: 300px;
+    margin-bottom: 100px;
+    font-size: 60px;
+    color: white;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.card {
+    margin: 20px;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.top {
+    font-size: 40px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 400px;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+}
+
+.overlay {
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 400px;
+    height: 375px;
+    background-color: rgba(255, 255, 255, 0.702);
+    box-shadow: inset 0px 0px 20px 10px rgb(0, 0, 0, 0.6);
+    position: absolute;
+}
+
+.overlay:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.card-pic {
+    width: 400px;
+    height: 375px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.bottom {
+    padding: 10px;
+    background-color: white;
 }
 
 .start {

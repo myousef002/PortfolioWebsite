@@ -3,7 +3,7 @@ let content = [
     'Code...',
     'Design...',
     'Teach...',
-    'Learn...'
+    'Study...'
 ];
 
 let jobTitle = document.querySelector('.job');
