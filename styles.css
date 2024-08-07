@@ -123,13 +123,13 @@ body {
 
 .project-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
 }
 
 .card {
-    margin: 20px;
-    width: 400px;
+    margin: 60px;
+    width: 800px;
     height: 500px;
     text-align: center;
     border-radius: 25px;
@@ -140,7 +140,7 @@ body {
     font-size: 40px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    width: 400px;
+    width: 800;
     height: 375px;
     display: flex;
     justify-content: center;
@@ -153,7 +153,7 @@ body {
     align-items: center;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    width: 400px;
+    width: 800px;
     height: 375px;
     background-color: rgba(255, 255, 255, 0.702);
     box-shadow: inset 0px 0px 20px 10px rgb(0, 0, 0, 0.6);
@@ -169,14 +169,14 @@ body {
 }
 
 .card-pic {
-    width: 400px;
+    width: 800px;
     height: 375px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
 
 .bottom {
-    padding: 5px;
+    padding: 20px;
     background-color: white;
     font-size: 13px;
 }
